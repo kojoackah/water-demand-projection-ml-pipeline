@@ -13,4 +13,4 @@ Results:
 - 6,128 connection points generated automatically.
 - 11.8 km pipeline routing analysis.
 - Clear engineering insight: Identified that the downstream DN315 segment creates a 73% peak friction drop bottleneck, 
-requiring a 9.0–10.0 Bar upstream dynamic pressure input.
+- requiring a 9.0–10.0 Bar upstream dynamic pressure input.
