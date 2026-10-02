@@ -13,6 +13,6 @@ Results:
 - 6,128 connection points generated automatically.
 
 Next Steps:
-- pipeline routing analysis.
+- primary pipeline routing analysis.
 - Clear engineering insight: Identify the downstream pipeline headloss and required upstream dynamic pressure.
-- 
+- internal secondary distribution pipeline routing analysis.
