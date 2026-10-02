@@ -7,10 +7,12 @@ Process:
 Step 1: Spatial discretization of imagery into 133 tiles using rasterio under EPSG:32630.
 Step 2: Zero-shot building annotation via Roboflow Workflows using GPT-6 Astra, yielding 6,128 customer points.
 Step 3: Affine spatial transformation to map abstract pixel boxes back to real-world UTM coordinates.
-Step 4: Hydraulic modeling using the Hazen-Williams equation to calculate a design flow rate of 78.25 L/s and a friction headloss of 77.33 meters.
+Step 4: Hydraulic modeling using the Hazen-Williams equation to calculate a design flow rate and a friction headloss.
 
 Results:
 - 6,128 connection points generated automatically.
-- 11.8 km pipeline routing analysis.
-- Clear engineering insight: Identified that the downstream DN315 segment creates a 73% peak friction drop bottleneck, 
-- requiring a 9.0–10.0 Bar upstream dynamic pressure input.
+
+Next Steps:
+- pipeline routing analysis.
+- Clear engineering insight: Identify the downstream pipeline headloss and required upstream dynamic pressure.
+- 
